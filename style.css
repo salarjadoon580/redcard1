@@ -66,7 +66,7 @@
     width: 50%;
 }
 
-input {
+.form1 input {
     margin-top: 10px;
     padding: 10px;
     width: 80%;
@@ -89,44 +89,41 @@ input::placeholder {
     color: rgb(255, 255, 255);
 }
 
-.inmain1-2 {
-    width: 80%;
+.main1-3{
+    width: 85%;
+    margin-top: 20px;
+}
+.inmain1-3{
+    width: 99%;
     display: flex;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.check1-3{
+    width: 50%;
     align-content: center;
+    display: flex;
 }
 
-.check1-2 {
-    width: 15px;
-    height: 15px;
-    accent-color: transparent;
-    
+.btn1-3{
+    width: 50%;
+    align-content: center;
+    align-items: center;
+    display: flex;
 }
-
-.chk1-2 {
-    align-content: end;
-}
-
-.p1-2 {
-    align-content: end;
-    padding-left: 5px;
-    width: 40%;
-    color: white;
-    font-size: 12.5px;
-}
-
-.btn1-2 {
-    align-content: end;
-    margin-left: 60px;
-}
-
-.cta1-2 {
+.btn1-3 button{
     padding: 5px;
 }
-
-.input1-2 {
-    padding-bottom: 40px;
+.inmain1-3-2 input{
+    width: 99%;
+    background-color: #98242a;
+    padding-bottom: 50px;
+    border:solid #cb6f70;
 }
-
+label{
+    color: white;
+}
 .sub-btn {
     width: 85%;
     margin-top: 25px;
