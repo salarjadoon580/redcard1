@@ -1,0 +1,152 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+.mainheader {
+    height: 100px;
+    display: flex;
+    align-content: center;
+    padding: 20px;
+}
+
+.main1 {
+    width: 99%;
+    display: flex;
+    background-color: #98242a;
+    padding-top: 60px;
+    border-left: 20px solid white;
+    border-bottom: 2px solid white;
+}
+
+.main1-1 {
+    width: 50%;
+    justify-content: flex-end;
+    margin-left: 120px;
+    padding-top: 150px;
+}
+
+.main1-1 h1 {
+    color: white;
+    font-size: 71px;
+    font-weight: 900;
+}
+
+.main1-1 p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.main1-1 h2 {
+    font-size: 26px;
+    font-weight: 900;
+}
+
+.contain-btn1 {
+    width: 75%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cta-btn1 {
+    padding: 5px 5px;
+}
+
+.contain-btn2 {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main1-2 {
+    width: 50%;
+}
+
+input {
+    margin-top: 10px;
+    padding: 10px;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid rgb(216, 130, 130);
+    color: white;
+}
+
+.main1-2 h2 {
+    padding-top: 20px;
+    font-weight: 900;
+}
+
+.main1-2 p {
+    font-size: 12.5px;
+    color: white;
+}
+
+input::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.inmain1-2 {
+    width: 80%;
+    display: flex;
+    align-content: center;
+}
+
+.check1-2 {
+    width: 15px;
+    height: 15px;
+    accent-color: transparent;
+    
+}
+
+.chk1-2 {
+    align-content: end;
+}
+
+.p1-2 {
+    align-content: end;
+    padding-left: 5px;
+    width: 40%;
+    color: white;
+    font-size: 12.5px;
+}
+
+.btn1-2 {
+    align-content: end;
+    margin-left: 60px;
+}
+
+.cta1-2 {
+    padding: 5px;
+}
+
+.input1-2 {
+    padding-bottom: 40px;
+}
+
+.sub-btn {
+    width: 85%;
+    margin-top: 25px;
+    padding-bottom: 100px;
+}
+
+.sub-btn button {
+    padding: 10px 80px;
+    font-size: 22px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 85px solid transparent;
+    /* border-right: 50px solid transparent; */
+    border-bottom: 80px solid #fff;
+    float: right;
+    z-index: 1;
+    margin-top: -80px;
+    
+
+}
